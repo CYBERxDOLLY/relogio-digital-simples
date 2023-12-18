@@ -7,7 +7,7 @@
   </a>
 <hr>
   <h2>Mobile</h2>
-  <a>
+  <a href="https://cyberxdolly.github.io/relogio-digital-simples/">
     <img src="https://github.com/CYBERxDOLLY/relogio-digital-simples/blob/main/assets/img/mobile.png?raw=true">
   </a>
 </div>
