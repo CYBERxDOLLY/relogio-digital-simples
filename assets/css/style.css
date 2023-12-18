@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 230px;
+    width: 580px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+}
+
+.clock div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgba(36, 166, 149, .6);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.clock span {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.clock span.time {
+    text-transform: uppercase;
+    text-shadow: -5px 5px 5px black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background: url("https://source.unsplash.com/480x900/?landscape");
+    }
+
+    .clock {
+        height: 180px;
+        width: 420px;
+    }
+
+    .clock div {
+        height: 120px;
+        width: 100px;
+    }
+
+    .clock span {
+        font-size: 50px;
+    }
+
+    .clock span.time {
+        font-size: 13px;
+    }
+}
